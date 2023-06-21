@@ -1,0 +1,64 @@
+#backgroundImage {
+    margin-top: -5px;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#chatBot_space {
+    margin-left: 950px;
+    margin-top: 100px;
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    background-color: rgba(165, 242, 251,1);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+h2#header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(0, 255, 26,.3);
+    margin-top: -1px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+#sendButton{
+    font-style: italic;
+    color:beige;
+    margin-left: -4px;
+    height: 36px;
+    width: 67px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: blue;
+    border: none;
+
+}
+#inputSection{
+    margin-left: 0px;
+    margin-top: 377px;
+    background: linear-gradient(beige 50%,blue 50%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#userInput{
+    padding-left: 10px;
+    height: 34px;
+    width: 221px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: beige;
+    border: none;
+    outline: none;
+   
+}
+
+body {
+    background-image: url("background_Main.jpg");
+    background-size: 100%;
+}
